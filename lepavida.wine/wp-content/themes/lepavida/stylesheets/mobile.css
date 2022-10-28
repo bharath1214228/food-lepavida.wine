@@ -1,0 +1,1168 @@
+/* Width based styles
+-------------------------------------------------------------- */
+@media (min-width: 2200px) {
+  .wines_side_menu {
+    display: block; } }
+@media (min-width: 1800px) {
+  .shown-mobile {
+    display: none !important; } }
+@media (min-width: 1400px) {
+  .show-1400 {
+    display: block !important; }
+
+  .hide-1400 {
+    display: none !important; } }
+@media (max-width: 1399px) {
+  .show-1400 {
+    display: none !important; }
+
+  .hide-1400 {
+    display: block !important; } }
+@media (min-width: 1400px) {
+  .show-1400 {
+    display: block !important; } }
+@media (min-width: 992px) and (max-width: 1800px) {
+  .shown-mobile {
+    display: none !important; }
+
+  img {
+    max-width: 100%;
+    height: auto; }
+
+  .container {
+    padding-left: 65px;
+    padding-right: 65px; }
+
+  .title_holder .main_menu {
+    z-index: 90000; }
+    .title_holder .main_menu .menu_button {
+      left: 0;
+      width: 50px;
+      overflow: hidden;
+      z-index: 90001;
+      -webkit-transition: width 0.2s ease-in-out;
+      -moz-transition: width 0.2s ease-in-out;
+      -o-transition: width 0.2s ease-in-out;
+      transition: width 0.2s ease-in-out; }
+      .title_holder .main_menu .menu_button .icon {
+        margin-left: 15px; }
+      .title_holder .main_menu .menu_button:hover {
+        width: 129px; }
+
+  section.ourfamily_top .top_title h2 {
+    left: 6%;
+    width: 200%; }
+  section.ourfamily_top .top_text {
+    padding: 50px 2% 0 12%; }
+  section.ourfamily_top .image .top_date {
+    top: 429px;
+    left: auto;
+    right: -15px;
+    font-size: 180px;
+    line-height: 200px;
+    text-align: right; }
+  section.ourfamily_top .quote .quote_box .top_quote {
+    font-size: 30px;
+    line-height: 45px; }
+  section.ourfamily_top .overimage .imageh {
+    left: -65px; }
+
+  section.home_midpart {
+    padding-top: 121px; }
+    section.home_midpart .midpart_back .assets .zzlined {
+      right: 56px; }
+
+  .wine_collection .concept .hand_concept {
+    left: auto;
+    right: 0; }
+  .wine_collection .winec_top_assets .winec_a1 {
+    left: 0; }
+  .wine_collection .wines_pt1.wines_pt1_front {
+    padding-top: 227px; }
+  .wine_collection .wine {
+    width: 100%; }
+    .wine_collection .wine .winename {
+      font-size: 162px;
+      line-height: 180px;
+      top: -15px; }
+    .wine_collection .wine .wineimage {
+      top: -209px; }
+      .wine_collection .wine .wineimage img {
+        max-width: 65%; }
+    .wine_collection .wine.wine_p1 .curvyl {
+      top: 0; }
+    .wine_collection .wine.wine_p1 .wineimage {
+      left: 231px; }
+    .wine_collection .wine.wine_p1 .winename {
+      left: 0; }
+    .wine_collection .wine.wine_p1 .winehead {
+      bottom: -345px;
+      right: 0;
+      left: auto; }
+    .wine_collection .wine.wine_p1 .dlink_holder {
+      padding-left: 385px; }
+    .wine_collection .wine.wine_p2 {
+      width: 87%;
+      margin-right: 12%;
+      margin-top: 630px; }
+      .wine_collection .wine.wine_p2 .whitearch {
+        top: -519px; }
+      .wine_collection .wine.wine_p2 .dline {
+        top: -200px;
+        left: 300px; }
+      .wine_collection .wine.wine_p2 .lighsquare {
+        top: -200px; }
+      .wine_collection .wine.wine_p2 .graybox {
+        top: 170px; }
+      .wine_collection .wine.wine_p2 .wineimage {
+        left: auto;
+        top: -151px;
+        right: 170px; }
+      .wine_collection .wine.wine_p2 .winemaker {
+        padding-left: 0;
+        padding-right: 150px; }
+    .wine_collection .wine.wine_p3 {
+      width: 89%;
+      margin-left: 10%; }
+      .wine_collection .wine.wine_p3 .dline {
+        top: -291px; }
+      .wine_collection .wine.wine_p3 .triangle {
+        right: 15%;
+        top: -332px; }
+      .wine_collection .wine.wine_p3 .wineimage {
+        top: -165px;
+        left: 261px; }
+      .wine_collection .wine.wine_p3 .winemaker {
+        padding-bottom: 70px; }
+      .wine_collection .wine.wine_p3 .dlink_holder {
+        padding-left: 440px; }
+    .wine_collection .wine.wine_p4 {
+      width: 80%;
+      margin-right: 12%; }
+      .wine_collection .wine.wine_p4 .sincetxt {
+        left: -150px; }
+      .wine_collection .wine.wine_p4 .vinesback {
+        z-index: 1;
+        top: 147px;
+        left: 0; }
+      .wine_collection .wine.wine_p4 .vinesimage {
+        float: left;
+        margin-left: 5%;
+        width: 45%;
+        height: auto;
+        max-width: 430px; }
+      .wine_collection .wine.wine_p4 .winedetails {
+        width: 400px; }
+        .wine_collection .wine.wine_p4 .winedetails .winename {
+          float: right;
+          top: -30px;
+          right: 0; }
+        .wine_collection .wine.wine_p4 .winedetails .winemaker {
+          float: right;
+          padding-left: 0;
+          padding-right: 203px; }
+        .wine_collection .wine.wine_p4 .winedetails .wineimage {
+          top: -200px;
+          right: 33px;
+          left: auto;
+          text-align: right; }
+      .wine_collection .wine.wine_p4 .dlink_holder {
+        right: 0; }
+    .wine_collection .wine.wine_p5 {
+      width: 90%;
+      margin-left: 9%; }
+      .wine_collection .wine.wine_p5 .diagonalline {
+        right: 0; }
+      .wine_collection .wine.wine_p5 .mesmimage {
+        right: 90px; }
+      .wine_collection .wine.wine_p5 .gray_circle {
+        right: 30%; }
+      .wine_collection .wine.wine_p5 .zzlined {
+        right: 5%; }
+      .wine_collection .wine.wine_p5 .wineimage {
+        top: -200px;
+        left: 300px; }
+      .wine_collection .wine.wine_p5 .winename {
+        left: 0; }
+      .wine_collection .wine.wine_p5 .dlink_holder {
+        padding-left: 130px; }
+    .wine_collection .wine.wine_p6 {
+      width: 80%;
+      margin-right: 19%; }
+      .wine_collection .wine.wine_p6 .curvyl {
+        left: 40px; }
+      .wine_collection .wine.wine_p6 .dline {
+        left: 470px; }
+      .wine_collection .wine.wine_p6 .circimage {
+        left: 100px; }
+      .wine_collection .wine.wine_p6 .winemaker {
+        float: right;
+        padding-right: 120px; }
+      .wine_collection .wine.wine_p6 .wineimage {
+        top: -190px;
+        left: auto;
+        right: 130px; }
+    .wine_collection .wine.wine_p1-front {
+      max-width: 100%; }
+      .wine_collection .wine.wine_p1-front .curvyl {
+        position: absolute;
+        top: -100px;
+        right: 208px; }
+      .wine_collection .wine.wine_p1-front .winehead {
+        position: absolute;
+        bottom: -346px;
+        right: 0; }
+      .wine_collection .wine.wine_p1-front .winemaker {
+        padding-left: 0px;
+        bottom: -33px;
+        left: 231px; }
+      .wine_collection .wine.wine_p1-front .winename {
+        left: 218px;
+        top: 0px;
+        float: none; }
+      .wine_collection .wine.wine_p1-front .wineimage {
+        left: 360px; }
+      .wine_collection .wine.wine_p1-front .dlink_holder {
+        padding-left: 0%; }
+        .wine_collection .wine.wine_p1-front .dlink_holder .dlink {
+          bottom: -100px;
+          left: 206px; }
+    .wine_collection .wine.wine_p2-front {
+      float: right;
+      width: 87%;
+      margin-right: 12%;
+      margin-top: 630px; }
+      .wine_collection .wine.wine_p2-front .whitearch {
+        position: absolute;
+        top: -219px;
+        left: 67px; }
+      .wine_collection .wine.wine_p2-front .dline {
+        position: absolute;
+        top: -184px;
+        left: 349px;
+        width: 43px; }
+      .wine_collection .wine.wine_p2-front .lighsquare {
+        position: absolute;
+        right: 178px;
+        top: -87px;
+        z-index: 1; }
+      .wine_collection .wine.wine_p2-front .graybox {
+        position: absolute;
+        width: 480px;
+        height: 439px;
+        top: 267px;
+        right: -14px;
+        z-index: 10; }
+      .wine_collection .wine.wine_p2-front .winemaker {
+        float: right;
+        padding-left: 0;
+        padding-right: 712px; }
+      .wine_collection .wine.wine_p2-front .winename {
+        float: right;
+        top: -44px;
+        right: -33px; }
+      .wine_collection .wine.wine_p2-front .wineimage {
+        left: auto;
+        top: -151px;
+        right: 170px; }
+      .wine_collection .wine.wine_p2-front .dlink_holder {
+        padding-right: 150px;
+        padding-top: 50px;
+        float: right; }
+        .wine_collection .wine.wine_p2-front .dlink_holder .dlink {
+          position: relative;
+          z-index: 170; }
+    .wine_collection .wine.wine_p3-front {
+      margin-top: 360px; }
+      .wine_collection .wine.wine_p3-front .dline {
+        position: absolute;
+        left: 106px;
+        top: -251px;
+        width: 73px; }
+      .wine_collection .wine.wine_p3-front .triangle {
+        position: absolute;
+        right: 43%;
+        top: -180px; }
+      .wine_collection .wine.wine_p3-front .gray_circle {
+        position: absolute;
+        bottom: -190px;
+        left: 359px;
+        border: 3px solid #decbba;
+        width: 52px;
+        height: 52px; }
+      .wine_collection .wine.wine_p3-front .mesmimage {
+        right: 90px;
+        top: 0; }
+      .wine_collection .wine.wine_p3-front .diagonalline {
+        right: 0;
+        top: 136px; }
+      .wine_collection .wine.wine_p3-front .winemaker {
+        top: 0;
+        padding-left: 354px; }
+      .wine_collection .wine.wine_p3-front .winename {
+        top: 0px;
+        left: 129px; }
+      .wine_collection .wine.wine_p3-front .wineimage {
+        top: 56px;
+        left: 206px; }
+      .wine_collection .wine.wine_p3-front .dlink_holder {
+        padding-left: 0%; }
+        .wine_collection .wine.wine_p3-front .dlink_holder .dlink {
+          right: -322px;
+          top: 0px; }
+
+  .catchup .story_item .square_back {
+    width: 115%; }
+
+  .contact_top .centercol {
+    width: 44%; }
+  .contact_top .sidecol {
+    width: 28%; }
+  .contact_top .left_items .winehead {
+    margin-left: 0;
+    float: left;
+    width: 100%;
+    background-size: contain; }
+  .contact_top .right_items .triangle {
+    float: right;
+    margin-left: 0; }
+
+  .contact_form .graybox .outer_holder .main_title {
+    font-size: 120px;
+    line-height: 131px;
+    top: -90px; }
+  .contact_form .graybox .outer_holder .form .form_top_items .item input {
+    width: 90%; }
+
+  section.family_big_credo .top_elholder .triangle {
+    top: 100%;
+    left: -70px; }
+  section.family_big_credo .top_elholder .lighsquare {
+    left: 5%;
+    width: 90%; }
+  section.family_big_credo .top_elholder .graybox {
+    left: auto;
+    right: 0; }
+
+  .gallery .lSAction .lSPrev {
+    left: 1200px; }
+  .gallery .lSAction .lSNext {
+    right: 1200px; }
+
+  section.wearelv .container .background-holder {
+    background: transparent url("../images/ourfamily_back.png") no-repeat right center;
+    right: 0;
+    width: 80%;
+    background-size: contain; }
+
+  section.ourfamily_inner_bottom .vinesback {
+    left: 0; }
+  section.ourfamily_inner_bottom .vinesimage {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    left: -20%; }
+  section.ourfamily_inner_bottom .quote .quote_box .top_quote {
+    font-size: 30px;
+    line-height: 45px; } }
+@media (min-width: 992px) and (max-width: 1399px) {
+  .wine_collection .wine {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+
+  section.wearelv .container .background-holder {
+    right: 0;
+    bottom: auto;
+    width: 100%;
+    top: 38%;
+    height: 486px;
+    background-size: contain;
+    z-index: 5; }
+  section.wearelv .textcol {
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 150px; }
+
+  .journal .winehead_holder {
+    display: none; }
+
+  .journal_popup .close_popup,
+  .about_wine_popup .close_popup {
+    right: 40px;
+    bottom: 40px; }
+  .journal_popup .popup_content,
+  .about_wine_popup .popup_content {
+    padding-top: 150px; }
+  .journal_popup.journal_popup .triangle,
+  .about_wine_popup.journal_popup .triangle {
+    display: none; }
+  .journal_popup.journal_popup .zzlinep,
+  .about_wine_popup.journal_popup .zzlinep {
+    right: -30px; }
+  .journal_popup.journal_popup .post_image,
+  .about_wine_popup.journal_popup .post_image {
+    padding-top: 0;
+    max-width: 100%;
+    text-align: center; }
+  .journal_popup.journal_popup .popup_content,
+  .about_wine_popup.journal_popup .popup_content {
+    padding-top: 100px; } }
+@media (max-width: 991px) {
+  .hidden-mobile {
+    display: none !important; }
+
+  img {
+    max-width: 100%;
+    height: auto; }
+
+  .title_holder .holder_items .fixed_elements .top_holder,
+  .title_holder .holder_items .fixed_elements .bottom_holder {
+    left: 0;
+    right: 0; }
+
+  .wine_collection .main_title-front {
+    font-size: 70px;
+    line-height: 70px;
+    padding-left: 0; }
+
+  section.ourfamily_top {
+    overflow: hidden;
+    padding-top: 60px; }
+    section.ourfamily_top .top_dline_c {
+      height: 80px; }
+    section.ourfamily_top .top_title {
+      height: 140px; }
+      section.ourfamily_top .top_title h2 {
+        top: 0;
+        left: 0;
+        font-size: 60px;
+        line-height: 70px;
+        margin: 35px 0 0 0; }
+    section.ourfamily_top .top_text {
+      padding: 0; }
+    section.ourfamily_top .dlink_holder {
+      padding: 18px 0 0 0; }
+    section.ourfamily_top .bword {
+      padding-right: 50px; }
+      section.ourfamily_top .bword .curvyld {
+        position: absolute;
+        right: 49px;
+        top: 87px; }
+    section.ourfamily_top .overimage {
+      height: 250px; }
+      section.ourfamily_top .overimage .imageh {
+        position: absolute;
+        top: -200px;
+        left: -100px;
+        right: -20px; }
+    section.ourfamily_top .image {
+      width: auto; }
+      section.ourfamily_top .image .top_date {
+        top: 350px;
+        right: -15px;
+        left: auto;
+        font-size: 120px;
+        line-height: 150px;
+        text-align: right; }
+
+  section.ourfamily_inner_bottom .quote,
+  section.ourfamily_top .quote {
+    padding-top: 100px; }
+    section.ourfamily_inner_bottom .quote .quote_box .top_quote,
+    section.ourfamily_inner_bottom .quote .quote_box .top_quote,
+    section.ourfamily_top .quote .quote_box .top_quote,
+    section.ourfamily_top .quote .quote_box .top_quote {
+      font-size: 30px;
+      line-height: 44px; }
+
+  section.home_midpart {
+    overflow: hidden; }
+    section.home_midpart .midpart_back {
+      height: 680px; }
+      section.home_midpart .midpart_back .assets .dline {
+        bottom: 44px;
+        left: 10%; }
+      section.home_midpart .midpart_back .assets .gray_circle {
+        bottom: 50px;
+        right: 9%;
+        left: auto; }
+      section.home_midpart .midpart_back .assets .zzlined {
+        bottom: -400px;
+        right: 10%;
+        z-index: 10; }
+      section.home_midpart .midpart_back .midimage {
+        padding-right: 0;
+        width: 100%;
+        text-align: center; }
+
+  .wine_collection .winec_top_assets {
+    height: 10px; }
+    .wine_collection .winec_top_assets .winec_a1 {
+      top: 230px;
+      left: 40px; }
+    .wine_collection .winec_top_assets .top_white_arch {
+      left: 170px;
+      top: 420px;
+      bottom: auto; }
+  .wine_collection .main_title {
+    width: 300px;
+    max-width: 100%;
+    font-size: 100px;
+    line-height: 120px;
+    padding: 0 20px 300px 20px;
+    top: -73px; }
+  .wine_collection.front-page-collection .concept {
+    padding-top: 150px;
+    padding-left: 0; }
+  .wine_collection .wines_pt1 {
+    padding-top: 220px; }
+  .wine_collection .wine {
+    width: 100%; }
+    .wine_collection .wine .dlink a span.text,
+    .wine_collection .wine .dlink span.outer span.text {
+      font-size: 14px; }
+    .wine_collection .wine .dlink .dark_line {
+      margin-top: 3px; }
+    .wine_collection .wine .winemaker {
+      font-size: 10px; }
+    .wine_collection .wine .winename {
+      font-size: 72px;
+      line-height: 83px;
+      top: 0; }
+    .wine_collection .wine .wineimage {
+      top: -117px;
+      z-index: 160;
+      max-width: 61px; }
+    .wine_collection .wine.wine_p1 .winemaker {
+      padding-left: 5px; }
+    .wine_collection .wine.wine_p1 .winename {
+      left: 0; }
+    .wine_collection .wine.wine_p1 .wineimage {
+      left: 100px; }
+    .wine_collection .wine.wine_p1 .curvyl {
+      top: -160px;
+      left: 190px; }
+    .wine_collection .wine.wine_p1 .dlink_holder {
+      padding-top: 30px;
+      padding-left: 200px; }
+    .wine_collection .wine.wine_p2 {
+      float: left; }
+      .wine_collection .wine.wine_p2 .whitearch {
+        top: -369px; }
+      .wine_collection .wine.wine_p2 .dline {
+        top: -360px;
+        left: 278px; }
+      .wine_collection .wine.wine_p2 .lighsquare {
+        left: 0;
+        right: auto;
+        top: -150px;
+        width: 60%;
+        height: 200px;
+        z-index: 1; }
+      .wine_collection .wine.wine_p2 .graybox {
+        width: 75%;
+        height: 250px;
+        top: -67px;
+        right: 5%;
+        z-index: 10; }
+      .wine_collection .wine.wine_p2 .winemaker {
+        float: right; }
+      .wine_collection .wine.wine_p2 .winename {
+        top: -30px;
+        left: auto;
+        right: 0; }
+      .wine_collection .wine.wine_p2 .wineimage {
+        top: -72px;
+        left: auto;
+        right: 111px; }
+      .wine_collection .wine.wine_p2 .dlink_holder {
+        position: relative;
+        padding-right: 240px;
+        top: -30px; }
+    .wine_collection .wine.wine_p3 {
+      margin-top: 460px; }
+      .wine_collection .wine.wine_p3 .triangle {
+        right: 0; }
+      .wine_collection .wine.wine_p3 .dline {
+        left: 46px;
+        top: -200px; }
+      .wine_collection .wine.wine_p3 .gray_circle {
+        right: 60px;
+        left: auto; }
+      .wine_collection .wine.wine_p3 .winemaker {
+        padding-left: 190px; }
+      .wine_collection .wine.wine_p3 .winename {
+        top: 0;
+        left: 7px; }
+      .wine_collection .wine.wine_p3 .wineimage {
+        top: -103px;
+        left: 119px; }
+      .wine_collection .wine.wine_p3 .dlink_holder {
+        padding-left: 225px; }
+    .wine_collection .wine.wine_p4 {
+      margin-top: 300px;
+      margin-right: 0;
+      float: left; }
+      .wine_collection .wine.wine_p4 .sincetxt {
+        display: none; }
+      .wine_collection .wine.wine_p4 .vinesback {
+        background: transparent url("../images/winec_a4.png") no-repeat left center;
+        width: 100%;
+        left: 0;
+        top: 0; }
+      .wine_collection .wine.wine_p4 .vinesimage {
+        width: 80%;
+        height: auto;
+        margin-left: 10%; }
+      .wine_collection .wine.wine_p4 .winedetails {
+        margin-top: 370px; }
+        .wine_collection .wine.wine_p4 .winedetails .winemaker {
+          padding-left: 0;
+          padding-right: 165px; }
+        .wine_collection .wine.wine_p4 .winedetails .winename {
+          top: 0;
+          right: 86px; }
+        .wine_collection .wine.wine_p4 .winedetails .wineimage {
+          top: -129px;
+          right: 98px;
+          left: auto; }
+      .wine_collection .wine.wine_p4 .dlink_holder {
+        padding-top: 50px;
+        right: 0;
+        padding-right: 30px; }
+    .wine_collection .wine.wine_p5 {
+      margin-top: 750px; }
+      .wine_collection .wine.wine_p5 .diagonalline {
+        top: -471px;
+        right: 0;
+        max-width: 100%; }
+      .wine_collection .wine.wine_p5 .mesmimage {
+        right: 15%;
+        top: -625px; }
+      .wine_collection .wine.wine_p5 .gray_circle {
+        top: -226px;
+        right: auto;
+        left: 15%; }
+      .wine_collection .wine.wine_p5 .zzlined {
+        top: 170px;
+        right: auto;
+        left: 15%; }
+      .wine_collection .wine.wine_p5 .winemaker {
+        padding-left: 8%; }
+      .wine_collection .wine.wine_p5 .wineimage {
+        top: -134px;
+        left: 186px; }
+      .wine_collection .wine.wine_p5 .winename {
+        top: -40px;
+        left: 7%; }
+      .wine_collection .wine.wine_p5 .dlink_holder {
+        padding-left: 70px; }
+    .wine_collection .wine.wine_p6 .curvyl {
+      top: 475px;
+      left: 0; }
+    .wine_collection .wine.wine_p6 .dline {
+      left: 70%;
+      top: 272px; }
+    .wine_collection .wine.wine_p6 .circimage {
+      left: 10%;
+      top: 190px; }
+    .wine_collection .wine.wine_p6 .winemaker {
+      padding-right: 8px; }
+    .wine_collection .wine.wine_p6 .wineimage {
+      top: -77px;
+      right: 77px;
+      left: auto; }
+    .wine_collection .wine.wine_p6 .dlink_holder {
+      padding-top: 80px; }
+    .wine_collection .wine.wine_p1-front {
+      max-width: 100%; }
+      .wine_collection .wine.wine_p1-front .curvyl {
+        position: absolute;
+        top: -100px;
+        right: 208px; }
+      .wine_collection .wine.wine_p1-front .winehead {
+        position: absolute;
+        bottom: -346px;
+        right: 0; }
+      .wine_collection .wine.wine_p1-front .winemaker {
+        padding-left: 0px;
+        bottom: 0px;
+        left: 0px; }
+      .wine_collection .wine.wine_p1-front .winename {
+        top: 0;
+        left: 7px;
+        float: none; }
+      .wine_collection .wine.wine_p1-front .wineimage {
+        top: -103px;
+        left: 66px; }
+      .wine_collection .wine.wine_p1-front .dlink_holder {
+        padding-left: 0%; }
+        .wine_collection .wine.wine_p1-front .dlink_holder .dlink {
+          bottom: -67px;
+          left: 0px; }
+    .wine_collection .wine.wine_p2-front {
+      float: right;
+      width: 87%;
+      margin-right: 12%;
+      margin-top: 300px; }
+      .wine_collection .wine.wine_p2-front .whitearch {
+        position: absolute;
+        top: -219px;
+        left: 67px; }
+      .wine_collection .wine.wine_p2-front .dline {
+        position: absolute;
+        top: -184px;
+        left: 349px;
+        width: 43px; }
+      .wine_collection .wine.wine_p2-front .lighsquare {
+        position: absolute;
+        right: 178px;
+        top: -87px;
+        z-index: 1; }
+      .wine_collection .wine.wine_p2-front .graybox {
+        width: 75%;
+        height: 250px;
+        top: -67px;
+        right: 5%;
+        z-index: 10; }
+      .wine_collection .wine.wine_p2-front .winemaker {
+        float: right;
+        padding-left: 0;
+        padding-right: 0px; }
+      .wine_collection .wine.wine_p2-front .winename {
+        float: right;
+        top: -44px;
+        right: -33px; }
+      .wine_collection .wine.wine_p2-front .wineimage {
+        left: auto;
+        top: -59px;
+        right: 80px; }
+      .wine_collection .wine.wine_p2-front .dlink_holder {
+        padding-right: 150px;
+        padding-top: 50px;
+        float: right; }
+        .wine_collection .wine.wine_p2-front .dlink_holder .dlink {
+          position: relative;
+          z-index: 170; }
+    .wine_collection .wine.wine_p3-front {
+      margin-top: 460px; }
+      .wine_collection .wine.wine_p3-front .dline {
+        position: absolute;
+        left: 106px;
+        top: -251px;
+        width: 73px; }
+      .wine_collection .wine.wine_p3-front .triangle {
+        position: absolute;
+        right: 15%;
+        top: -332px; }
+      .wine_collection .wine.wine_p3-front .gray_circle {
+        position: absolute;
+        bottom: -190px;
+        left: 359px;
+        border: 3px solid #decbba;
+        width: 52px;
+        height: 52px; }
+      .wine_collection .wine.wine_p3-front .mesmimage {
+        right: 90px; }
+      .wine_collection .wine.wine_p3-front .diagonalline {
+        right: 0; }
+      .wine_collection .wine.wine_p3-front .winemaker {
+        top: 0;
+        padding-left: 234px; }
+      .wine_collection .wine.wine_p3-front .winename {
+        top: 0px;
+        left: 129px; }
+      .wine_collection .wine.wine_p3-front .wineimage {
+        top: 126px;
+        left: 155px; }
+      .wine_collection .wine.wine_p3-front .dlink_holder {
+        padding-left: 0%; }
+        .wine_collection .wine.wine_p3-front .dlink_holder .dlink {
+          right: -205px;
+          top: 0px; }
+  .wine_collection .wines_middle_pt {
+    padding-top: 205px; }
+    .wine_collection .wines_middle_pt .winec_middle {
+      height: 768px; }
+      .wine_collection .wines_middle_pt .winec_middle .vline {
+        top: 30px; }
+      .wine_collection .wines_middle_pt .winec_middle .text .toptitle {
+        padding-top: 231px; }
+      .wine_collection .wines_middle_pt .winec_middle .text .title {
+        font-size: 35px;
+        line-height: 50px; }
+      .wine_collection .wines_middle_pt .winec_middle .winec_rect {
+        bottom: -200px;
+        left: 5%; }
+  .wine_collection.main_wine_page .wine.wine_p4 {
+    margin-top: 0; }
+    .wine_collection.main_wine_page .wine.wine_p4 .winedetails {
+      margin-top: 300px; }
+
+  .home_big_credo {
+    padding-top: 200px; }
+    .home_big_credo .credo {
+      padding-top: 35px;
+      font-size: 38px;
+      line-height: 55px; }
+
+  .catchup {
+    padding-top: 200px; }
+    .catchup .cuitems .cucircle {
+      left: 3px; }
+    .catchup .cuitems .cuarch {
+      top: 320px;
+      right: 5px; }
+    .catchup .cuitems .triangle {
+      top: 130%;
+      right: auto;
+      left: 10%; }
+    .catchup .cutitle {
+      top: -25px; }
+      .catchup .cutitle p {
+        font-size: 70px;
+        line-height: 84px; }
+    .catchup .number_holder {
+      top: 0; }
+    .catchup .story_item {
+      padding-top: 330px; }
+      .catchup .story_item .image_holder {
+        text-align: center; }
+      .catchup .story_item .square_back {
+        background: transparent url("../images/cusquare.jpg") repeat center center;
+        width: auto;
+        top: 330px;
+        left: -15px;
+        right: -15px; }
+    .catchup .stories_titledate {
+      padding-top: 60px; }
+      .catchup .stories_titledate .stories_title {
+        padding-left: 15px; }
+    .catchup .stories_line {
+      margin-left: 15px; }
+    .catchup .story_title {
+      padding: 33px 15px 0 15px; }
+    .catchup .wlink_holder {
+      padding-bottom: 85px; }
+
+  .contact_top .sidecol {
+    display: none; }
+  .contact_top .left_items .winehead {
+    margin-left: 0;
+    width: 100%; }
+  .contact_top .left_items .whitearch {
+    margin-top: 145px;
+    margin-left: 50%; }
+  .contact_top .center_outer {
+    margin-top: 100px; }
+  .contact_top .right_items {
+    padding-top: 194px; }
+
+  .contact_form .graybox .outer_holder .main_title {
+    font-size: 70px;
+    line-height: 75px;
+    top: -60px; }
+  .contact_form .graybox .outer_holder .form .form_top_items {
+    padding-top: 0;
+    padding-bottom: 0; }
+    .contact_form .graybox .outer_holder .form .form_top_items .item {
+      width: 100%;
+      padding-bottom: 20px; }
+      .contact_form .graybox .outer_holder .form .form_top_items .item input {
+        width: 100%; }
+
+  section.wearelv .container .background-holder {
+    top: 370px;
+    right: 0;
+    bottom: auto;
+    width: 100%;
+    height: 300px;
+    background-size: contain; }
+  section.wearelv .container .title {
+    font-size: 70px;
+    line-height: 75px;
+    width: 100%; }
+  section.wearelv .container .background_row .number_holder {
+    padding-top: 343px;
+    z-index: 13; }
+  section.wearelv .container .background_row .circimage {
+    right: 36%;
+    bottom: -340px; }
+  section.wearelv .container .background_row .whitearch {
+    right: 35%;
+    bottom: -312px; }
+
+  section.family_big_credo {
+    padding-top: 371px; }
+    section.family_big_credo .top_elholder .dline {
+      left: auto;
+      right: 10%; }
+    section.family_big_credo .top_elholder .lighsquare {
+      left: 15%;
+      width: 80%;
+      height: 395px; }
+    section.family_big_credo .top_elholder .graybox {
+      top: 330px;
+      left: auto;
+      width: 40%;
+      height: 200px;
+      z-index: 5;
+      right: 0; }
+    section.family_big_credo .top_elholder .triangle {
+      top: 120%;
+      left: 5%;
+      z-index: 10; }
+    section.family_big_credo .text_holder .credo {
+      font-size: 41px;
+      line-height: 51px; }
+
+  section.family_wine_concept {
+    padding-top: 318px; }
+    section.family_wine_concept .lbottom_elholder .dline {
+      left: 40%;
+      top: -65px; }
+    section.family_wine_concept .rbottom_elholder .dlined {
+      left: 15%;
+      top: 90px; }
+    section.family_wine_concept .rbottom_elholder .curvyl {
+      left: auto;
+      top: 70px;
+      right: 20%; }
+    section.family_wine_concept .rbottom_elholder .winehead {
+      top: 190px;
+      right: 0; }
+
+  .gallery {
+    padding-top: 700px; }
+    .gallery .lSAction {
+      width: 100%;
+      max-width: 1028px; }
+      .gallery .lSAction .lSPrev {
+        left: 20px; }
+        .gallery .lSAction .lSPrev .left_line {
+          display: none; }
+      .gallery .lSAction .lSNext {
+        right: 20px; }
+        .gallery .lSAction .lSNext .right_line {
+          display: none; }
+    .gallery .top_controls .top_line {
+      top: 20px; }
+    .gallery .top_controls .image_title {
+      top: 41px; }
+    .gallery .bottom_controls .image_number {
+      bottom: 20px; }
+    .gallery .gallery_slider_holder {
+      width: 100%;
+      height: 396px;
+      top: 790px; }
+      .gallery .gallery_slider_holder ul {
+        height: 396px !important; }
+        .gallery .gallery_slider_holder ul li.gallery_item img {
+          min-width: 570px; }
+      .gallery .gallery_slider_holder .gallery_slider_outer {
+        left: 0;
+        width: 100%; }
+        .gallery .gallery_slider_holder .gallery_slider_outer .gallery_slider_inner {
+          left: 0;
+          width: 100%; }
+    .gallery .gallery_back {
+      height: 570px;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    .gallery .title {
+      top: -20px;
+      font-size: 73px;
+      line-height: 89px;
+      letter-spacing: 0.20em; }
+
+  section.ourfamily_inner_bottom .vinesimage {
+    width: 100%;
+    height: auto; }
+  section.ourfamily_inner_bottom .quote {
+    padding-top: 270px; }
+  section.ourfamily_inner_bottom .vinesback {
+    width: 100%;
+    height: 737px;
+    top: 47px;
+    left: 0; }
+
+  .catchup.light,
+  .catchup.journal {
+    padding-top: 200px; }
+    .catchup.light .cuitems .triangle,
+    .catchup.journal .cuitems .triangle {
+      top: 389px;
+      right: auto;
+      left: 10%; }
+    .catchup.light .cuitems .whitearch,
+    .catchup.journal .cuitems .whitearch {
+      top: 491px;
+      left: 60%; }
+    .catchup.light .number_holder,
+    .catchup.journal .number_holder {
+      top: 70px; }
+    .catchup.light .cutitle,
+    .catchup.journal .cutitle {
+      padding-bottom: 230px; }
+    .catchup.light .journal_element.vertical,
+    .catchup.journal .journal_element.vertical {
+      padding-top: 123px; }
+    .catchup.light .winehead_holder .winehead_b,
+    .catchup.journal .winehead_holder .winehead_b {
+      right: auto;
+      top: 270px;
+      left: 0;
+      width: 100%; }
+    .catchup.light .pagination_holder,
+    .catchup.journal .pagination_holder {
+      padding-top: 126px; }
+      .catchup.light .pagination_holder .pagination .page-numbers,
+      .catchup.journal .pagination_holder .pagination .page-numbers {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px; }
+      .catchup.light .pagination_holder .pagination a.page-numbers.prev,
+      .catchup.light .pagination_holder .pagination span.page-numbers.prev,
+      .catchup.light .pagination_holder .pagination a.page-numbers.next,
+      .catchup.light .pagination_holder .pagination span.page-numbers.next,
+      .catchup.journal .pagination_holder .pagination a.page-numbers.prev,
+      .catchup.journal .pagination_holder .pagination span.page-numbers.prev,
+      .catchup.journal .pagination_holder .pagination a.page-numbers.next,
+      .catchup.journal .pagination_holder .pagination span.page-numbers.next {
+        display: none; }
+
+  section.foot_image {
+    padding-top: 250px; }
+    section.foot_image.journal {
+      padding-top: 550px; }
+
+  .journal_popup .close_popup,
+  .about_wine_popup .close_popup {
+    left: 40px;
+    top: 40px;
+    right: auto;
+    bottom: auto; }
+  .journal_popup .wine,
+  .about_wine_popup .wine {
+    padding-top: 380px; }
+    .journal_popup .wine .vines,
+    .about_wine_popup .wine .vines {
+      width: 145px;
+      height: 281px;
+      top: 240px;
+      left: 50px; }
+    .journal_popup .wine .winename,
+    .about_wine_popup .wine .winename {
+      font-size: 140px;
+      line-height: 100px; }
+    .journal_popup .wine .wineimage,
+    .about_wine_popup .wine .wineimage {
+      top: 200px;
+      left: 63px; }
+      .journal_popup .wine .wineimage img,
+      .about_wine_popup .wine .wineimage img {
+        max-width: 55%; }
+  .journal_popup .popup_content,
+  .about_wine_popup .popup_content {
+    padding-top: 120px; }
+    .journal_popup .popup_content .text .whiteline,
+    .about_wine_popup .popup_content .text .whiteline {
+      display: none; }
+  .journal_popup .diagonalline,
+  .about_wine_popup .diagonalline {
+    top: 197px;
+    left: -43px; }
+  .journal_popup .mesmimage,
+  .about_wine_popup .mesmimage {
+    top: 44px;
+    left: 30px; }
+  .journal_popup .circles,
+  .about_wine_popup .circles {
+    top: 450px;
+    right: 150px;
+    left: auto; }
+  .journal_popup .sidetext,
+  .about_wine_popup .sidetext {
+    top: 540px;
+    left: auto;
+    right: 0; }
+  .journal_popup .zzlinep,
+  .about_wine_popup .zzlinep {
+    right: 40px;
+    top: 80px; }
+  .journal_popup.wine_sivi__pinot .wine .wineimage,
+  .about_wine_popup.wine_sivi__pinot .wine .wineimage {
+    top: 297px;
+    left: 93px; }
+    .journal_popup.wine_sivi__pinot .wine .wineimage img,
+    .about_wine_popup.wine_sivi__pinot .wine .wineimage img {
+      max-width: 35%; }
+  .journal_popup.wine_sivi__pinot .wine .winename,
+  .about_wine_popup.wine_sivi__pinot .wine .winename {
+    font-size: 68px; }
+  .journal_popup.wine_sauvig__non .wine .wineimage,
+  .about_wine_popup.wine_sauvig__non .wine .wineimage {
+    top: 297px;
+    left: 178px; }
+    .journal_popup.wine_sauvig__non .wine .wineimage img,
+    .about_wine_popup.wine_sauvig__non .wine .wineimage img {
+      max-width: 35%; }
+  .journal_popup.wine_sauvig__non .wine .winename,
+  .about_wine_popup.wine_sauvig__non .wine .winename {
+    font-size: 68px; }
+  .journal_popup.wine_mal__vazija .wine .wineimage,
+  .about_wine_popup.wine_mal__vazija .wine .wineimage {
+    top: 297px;
+    left: 103px; }
+    .journal_popup.wine_mal__vazija .wine .wineimage img,
+    .about_wine_popup.wine_mal__vazija .wine .wineimage img {
+      max-width: 35%; }
+  .journal_popup.wine_mal__vazija .wine .winename,
+  .about_wine_popup.wine_mal__vazija .wine .winename {
+    font-size: 68px; }
+  .journal_popup.wine_m__i .wine .wineimage,
+  .about_wine_popup.wine_m__i .wine .wineimage {
+    top: 200px;
+    left: 138px; }
+    .journal_popup.wine_m__i .wine .wineimage img,
+    .about_wine_popup.wine_m__i .wine .wineimage img {
+      max-width: 55%; }
+  .journal_popup.wine_m__i .wine .winename,
+  .about_wine_popup.wine_m__i .wine .winename {
+    font-size: 160px; }
+  .journal_popup.wine_rose .wine .wineimage,
+  .about_wine_popup.wine_rose .wine .wineimage {
+    top: 200px;
+    left: 180px;
+    text-align: right; }
+    .journal_popup.wine_rose .wine .wineimage img,
+    .about_wine_popup.wine_rose .wine .wineimage img {
+      max-width: 55%; }
+  .journal_popup.wine_rose .wine .winename,
+  .about_wine_popup.wine_rose .wine .winename {
+    font-size: 140px; }
+  .journal_popup.journal_popup .diagonalline,
+  .about_wine_popup.journal_popup .diagonalline {
+    top: 197px; }
+  .journal_popup.journal_popup .mesmimage,
+  .about_wine_popup.journal_popup .mesmimage {
+    top: 44px; }
+  .journal_popup.journal_popup .triangle,
+  .about_wine_popup.journal_popup .triangle {
+    display: none; }
+  .journal_popup.journal_popup .post_image,
+  .about_wine_popup.journal_popup .post_image {
+    padding-top: 0;
+    max-width: 100%;
+    text-align: center; }
+  .journal_popup.journal_popup .title,
+  .about_wine_popup.journal_popup .title {
+    max-width: 100%; }
+  .journal_popup.journal_popup .popup_content,
+  .about_wine_popup.journal_popup .popup_content {
+    padding-top: 50px; } }
+
+/*# sourceMappingURL=mobile.css.map */
